@@ -3,34 +3,38 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-	<style>
+<style>
+
 	p {
 		display: none;
 	}
-	</style>
+
+</style>
 
 </head>
 <body>
 	<script>
+
 		$(document).ready(function() {
 
 			$("p").fadeOut(2000);
-			$("h1").slideUp(2000);
-			$("p").fadeIn(2000);
+			$("h1").slideUp(2000);			
+			$("p").fadeIn(2000);	
 			$("h1").slideDown(2000);
 
 		  $("#kitty").animate({
-        	left: '250px',
-	        opacity: '0.5',
-	        height: '150px',
-	        width: '150px'
+	    	left: '250px',
+	      opacity: '0.5',
+	      height: '150px',
+	      width: '150px'
 			});
 
 			$( "button" ).click(function() {
-	  		$( "p" ).toggle();
+		  	$( "p" ).toggle();
 			});
 
 		});
+
 	</script>
 
 	<h1> This is my big headline </h1>
@@ -50,8 +54,7 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		
-			<img id="kitty" src="Parker3.jpg" width="500px">		
-
+			<img id="kitty" src="Parker3.jpg" width="500px">
 	</div>
 
 	<button>Click!</button>
